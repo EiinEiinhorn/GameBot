@@ -1,0 +1,41 @@
+Willkommen beim Gamebot.
+Hier kannst du Gruppen erstellen, denen jeder beitreten kann, um bei Anfrage auf Mitspieler nur einen Command nutzen zu müssen, um alle zu benachrichtigen, die interessiert sind.
+
+_Prefix: "."_
+
+**create**
+_GRUPPE_ :: Erstellt eine Gruppe mit dem vorgegebenen Namen
+_GRUPPE #TAG #TAG_ :: Alle mit dem **#** getrennten Begriffe sind Tags für die Gruppe. So kann das Spiel auch mit Abkürzungen aufgerufen werden.
+
+**join**
+_GRUPPE_ :: Du trittst der benannten Gruppe bei
+_all_ :: Du trittst allen Gruppen des Servers bei
+**leave**
+_GRUPPE_ :: Du verlässt die benannte Gruppe
+_all_ :: Du verlässt alle von dir beigetretenen Gruppen des Servers
+
+**play**
+_GRUPPE_ :: Der Bot benachrichtigt alle Mitglieder der von dir benannten Gruppe und fragt an.
+_something_ :: Der Bot benachrichtigt alle Mitglieder, die mit dir in einer Gruppe sind.
+_~ #minutes_ :: Wird hinter den Command ein # mit einer ganzen Zahl gesetzt (max. 30), wird der Anfrage ein Timer in Minuten hinzugefügt.
+
+** +1 / -1**
+*Wenn auf den .play command ein +1 oder -1 folgt, wird vermerkt, ob man mitspielen will oder nicht.*
+*Dieser Command funktioniert entweder während der ersten 5 Minuten, oder während Ablaufen eines gestellten timers.*
+
+**lonely:** Solltest du alleine in einem Voice Channel sein, benachrichtigt der Bot alle Servermitglieder, die online sind.
+
+**addtag**
+_GRUPPE #TAG #TAG_ :: Fügt der Gruppe alle genannten Tags hinzu
+**removetag**
+_GRUPPE #TAG #TAG_ :: Entfernt der Gruppe alle genannten Tags
+_GRUPPE #all_ :: Entfernt alle Tags der Gruppe
+**changename**
+_GRUPPE #NAME_ :: Ändert den Gruppennamen zum nach dem **#** genannten Namen.
+
+**remove GRUPPE:** Die benannte Gruppe wird gelöscht
+
+**info:** Zeigt alle Gruppen des Servers an
+**info GRUPPE:** Zeigt genauere Infos zur benannten Gruppe an
+**self:** Zeigt an, welchen Gruppen du beigetreten bist
+**changelanguage lang:** Wechselt die Sprache des Bots

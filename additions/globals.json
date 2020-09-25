@@ -1,0 +1,11 @@
+{
+    "invalidNames": ["", "all", "something", "anything"],
+    "splitCharacter": "#",
+    "maxCountdownMinutes": 180,
+    "timeBeforeErrorDeletion": 8,
+    "maxMinutesForPlayAdd": 30,
+    "defaultBotLanguage": "en",
+    "serverFilePath": "serverData/{}.json",
+    "answersFilePath": "additions/answers.json",
+    "messageSearchLimit": 200
+}

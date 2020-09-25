@@ -1,0 +1,166 @@
+{
+    "de": {
+
+        "amongus": {
+            "controlgiven": "((Du hast||<@!{AUTHORID}> hat)) die Among Us Mute Kontrolle übernommen."
+        },
+
+        "lonely": {
+            "isLonely": "@here **{AUTHORNAME}** ist da ganz alleine im  :loud_sound: **{AUTHORVOICECHANNEL}** Voice Channel, leistet doch mal etwas Gesellschaft :)"
+        },
+
+        "language": {
+            "changed": "Die Sprache des Bots wurde auf Deutsch geändert."
+        },
+
+        "remove": {
+            "groupRemoved": "Die Gruppe **{GROUP}** wurde entfernt."
+        },
+
+        "addtag": {
+            "tagadded": "Die Tags von **{GROUP}** wurden aktualisiert."
+        },
+
+        "removetag": {
+            "removedall": "Die Tags von **{GROUP}** wurden gelöscht.",
+            "tagremoved": "Die Tags von **{GROUP}** wurden aktualisiert."
+        },
+        
+        "changename": {
+            "changed": "**{OLDNAME}** wurde nach **{NEWNAME}** umbenannt."
+        },
+
+        "info": {
+            "allgroups": "Gruppen auf diesem Server: {GROUPLIST}",
+            "group": "Gruppe **{GROUP}**{TAGS}: {MEMBERLIST}"
+        },
+
+        "self": {
+            "includedGroups": "Du bist in folgenden Gruppen des Servers: {GROUPLIST}"
+        },
+
+        "play": {
+            "something": "Hey {PINGLIST}, ein paar Runden Zocken? `{MINUTESTRING}` `+{REQUESTID}`",
+            "game": "Hey {PINGLIST}, wie stehts mit ner Runde **{GROUP}**? `{MINUTESTRING}` `+{REQUESTID}`",
+            "minutes": "In {MINUTES} ((Minuten||Minute))",
+            "now": "Jetzt",
+            "cancelled": "Abgebrochen"
+        },
+
+        "leave": {
+            "leftall": "((Du hast||<@!{AUTHORID}> hat)) alle Gruppen verlassen.",
+            "leftgroup": "((Du hast||<@!{AUTHORID}> hat)) **{GROUP}** verlassen."
+        },
+
+        "join": {
+            "joinedall": "((Du bist||<@!{AUTHORID}> ist)) allen Gruppen beigetreten.",
+            "joinedgroup": "((Du bist||<@!{AUTHORID}> ist)) **{GROUP}** beigetreten."
+        },
+
+        "create": {
+            "groupCreated": "Die Gruppe **{GROUP}** wurde erstellt."
+        },
+
+        "error": {
+            "notPlayingAmongUs": "Du spielst kein Among Us.",
+            "isNotLonely": "Du bist doch gar nicht allein...",
+            "isNotInVoice": "Du bist selber in keinem Voice Channel...",
+            "groupNotFound": "Die Gruppe **{GROUP}** konnte nicht gefunden werden.",
+            "emptyMessage": "Der Command konnte nicht ausgeführt werden, da keine Werte vorhanden sind.",
+            "invalidStructure": "Ungültige Eingabe. Achte darauf, den Command richtig einzugeben. Gib **.help** für mehr Informationen ein.",
+            "invalidName": "Der Name **{NAME}** darf nicht benutzt werden.",
+            "nameTaken": "Der Name **{NAME}** existiert bereits.",
+            "noGroupsOnServer": "Es gibt noch keine Gruppe auf diesem Server.",
+            "isInNoGroup": "Du bist in keiner Gruppe.",
+            "noSharedGroup": "Es gibt niemanden, der mit dir in einer Gruppe ist.",
+            "aloneInGroup": "Außer dir ist niemand **{GROUP}** beigetreten.",
+            "authorNotInGroup": "Du bist der Gruppe **{GROUP}** nicht beigetreten.",
+            "authorAlreadyInGroup": "Du bist der Gruppe **{GROUP}** bereits beigetreten.",
+            "languageNotFound": "Die gesuchte Sprache wurde nicht gefunden. Verfügbare Sprachen sind: {LANGLIST}"
+        }
+    },
+
+    "en": {
+
+        "amongus": {
+            "controlgiven": "((You have||<@!{AUTHORID}> has)) taken over the Among Us Mute Control."
+        },
+
+        "lonely": {
+            "isLonely": "@here **{AUTHORNAME}** is alone sitting in :loud_sound: **{AUTHORVOICECHANNEL}**. Be a good friend and join him :)"
+        },
+
+        "language": {
+            "changed": "The Bots language has been changed to English."
+        },
+
+        "remove": {
+            "groupRemoved": "The group **{GROUP}** has been removed."
+        },
+
+        "addtag": {
+            "tagadded": "The tags of **{GROUP}** have been updated."
+        },
+
+        "removetag": {
+            "removedall": "The tags of **{GROUP}** have been deleted.",
+            "tagremoved": "The tags of **{GROUP}** have been updated."
+        },
+        
+        "changename": {
+            "changed": "**{OLDNAME}** has been renamed to **{NEWNAME}**."
+        },
+
+        "info": {
+            "allgroups": "Groups on this server: {GROUPLIST}",
+            "group": "Group **{GROUP}**{TAGS}: {MEMBERLIST}"
+        },
+
+        "self": {
+            "includedGroups": "You're in the follwing groups of the server: {GROUPLIST}"
+        },
+
+        "play": {
+            "something": "Hey {PINGLIST}, wanna play something? `{MINUTESTRING}` `+{REQUESTID}`",
+            "game": "Hey {PINGLIST}, wanna play **{GROUP}**? `{MINUTESTRING}` `+{REQUESTID}`"
+        },
+
+        "playEdit": {
+            "minutes": "In {MINUTES} ((minutes||minute))",
+            "now": "Now",
+            "cancelled": "Cancelled"
+        },
+
+        "leave": {
+            "leftall": "((You||<@!{AUTHORID}>)) left all groups.",
+            "leftgroup": "((You||<@!{AUTHORID}>)) left **{GROUP}**"
+        },
+
+        "join": {
+            "joinedall": "((You||<@!{AUTHORID}>)) joined all groups.",
+            "joinedgroup": "((You||<@!{AUTHORID}>)) joined **{GROUP}**."
+        },
+
+        "create": {
+            "groupCreated": "The group **{GROUP}** has been created."
+        },
+
+        "error": {
+            "notPlayingAmongUs": "You're not playing Among Us.",
+            "isNotLonely": "You're not alone...",
+            "isNotInVoice": "You're not even in a voice channel...",
+            "groupNotFound": "The group **{GROUP}** couldn't be found.",
+            "emptyMessage": "The command couldn't be executed, as you inserted no values.",
+            "invalidStructure": "Invalid input. Be aware of correct Syntax. Type **.help** for more information.",
+            "invalidName": "The name **{NAME}** is not allowed for use.",
+            "nameTaken": "The name **{NAME}** already exists.",
+            "noGroupsOnServer": "There are no groups on the server.",
+            "isInNoGroup": "You joined no group.",
+            "noSharedGroup": "There's noone in a group with you.",
+            "aloneInGroup": "Except for you, noone joned **{GROUP}**.",
+            "authorNotInGroup": "You didn't join **{GROUP}** yet.",
+            "authorAlreadyInGroup": "You already joined **{GROUP}**.",
+            "languageNotFound": "The language you searched for is not available. Available languages are: {LANGLIST}"
+        }
+    }
+}
